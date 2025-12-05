@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
@@ -28,7 +26,6 @@ export default function OnboardingPage() {
         <Card className="rounded-2xl shadow-2xl backdrop-blur-lg bg-white/10 border border-white/20">
           <CardContent className="p-10 text-white">
             <h1 className="text-3xl font-bold mb-6 text-center">Ise AI Hiring Assistant</h1>
-
             <p className="text-center text-white/80 mb-10 text-lg">
               Seamlessly onboard and begin streamlining your HR hiring workflow.
             </p>
@@ -36,26 +33,17 @@ export default function OnboardingPage() {
             <div className="space-y-6">
               <div>
                 <label className="text-sm font-medium text-white/80">Your Full Name</label>
-                <Input
-                  placeholder="Enter your name"
-                  className="mt-2 bg-white/20 border-white/30 text-white"
-                />
+                <Input placeholder="Enter your name" className="mt-2 bg-white/20 border-white/30 text-white" />
               </div>
 
               <div>
                 <label className="text-sm font-medium text-white/80">Company Name</label>
-                <Input
-                  placeholder="Enter company name"
-                  className="mt-2 bg-white/20 border-white/30 text-white"
-                />
+                <Input placeholder="Enter company name" className="mt-2 bg-white/20 border-white/30 text-white" />
               </div>
 
               <div>
                 <label className="text-sm font-medium text-white/80">Work Email</label>
-                <Input
-                  placeholder="Enter work email"
-                  className="mt-2 bg-white/20 border-white/30 text-white"
-                />
+                <Input placeholder="Enter work email" className="mt-2 bg-white/20 border-white/30 text-white" />
               </div>
 
               <div>
